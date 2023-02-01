@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <style>
+        body{ 
+            background-image: url("img/score.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover; 
+            z-index: -1;  
+        }
+        img{
+            height:100px;
+            width:100px;
+            filter: invert(1);
+            border-radius: 50px;
+            position: relative;
+            align-items: center;
+            margin-top: 130px;
+            margin-left: 300px;
+        }
+        .imag{
+            height:100px;
+            width:100px;
+        } 
+        .head{
+            /* align-items: center; */
+            position: absolute;
+            margin-left: 30px;
+            color: rgb(236, 236, 236);
+            font-size: 60px;
+            margin-top: 30px;
+            font-weight: bolder;
+            text-align: center;
+        }
+        .btn{
+            margin-top:200px;
+            display:inline-flexbox;
+            margin-left: 180px;
+            border:red;
+        }
+        #btn1{
+            display: flex;
+            font-size: 30px;
+            background-color: rgb(169, 169, 243);
+            border-radius: 10px;
+            padding: 10px;
+            width:370px;
+            color:rgb(42, 53, 62);
+            border-radius: 30px;
+            border: 5px solid antiquewhite;
+
+        }
+        #btn2{
+            color:rgb(42, 53, 62);
+            margin-top:60px;
+            display: flex;
+            font-size: 30px;
+            background-color: rgb(169, 169, 243);
+            border-radius: 10px;
+            padding: 10px;
+            width:370px;
+            border-radius: 30px;
+            border: 5px solid antiquewhite;
+
+
+        }
+        #btn3{
+            margin-top:60px;
+            font-size: 30px;
+            background-color: rgb(169, 169, 243);
+            border-radius: 10px;
+            padding: 10px;
+            width:370px;
+            color:rgb(42, 53, 62);
+            border-radius: 30px;
+            border: 5px solid antiquewhite;
+        }
+        a{
+            text-decoration: none;
+        }
+        .butt:hover{ 
+            background-color: orangered;
+        }
+        
+        .logout{
+            margin-left: 1400px;
+        }
+        .bt1{
+            background-color: #00bfdf;
+            height: 50px;
+            width:110px;
+            border-radius: 15px;
+            border: 2px solid white;
+        }
+        .logout a{
+            font-size:20px;
+            color:white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .bt1:hover{
+            background-color: orangered;
+        }
+    </style>
+</head> 
+<body>
+    <div class="head" >
+        Marks Prediction System
+      </div>
+      <div class="imag">
+        <img src="img/edu.webp" alt="">
+      </div>
+      <div class="logout">
+          <button class="bt1" id="bt2" ><a href="index.php">Logout</a></button>
+        </div>
+    <div class="form2">
+    <form class="btn">
+        <button class="butt" id="btn1"><a href="stud_info.html">Search Student Info</a></button>
+        <button class="butt" id="btn2"><a href="predict.html">Predict Tenth Score</a></button>
+        <button class="butt" id="btn3"><a href="group.html">Suggest Group of subject</a></button>
+    </form> 
+</body>
+</html>
